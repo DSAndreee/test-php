@@ -1,0 +1,16 @@
+{
+    "name": "andredasilva/test-php",
+    "description": "Super tests !",
+    "type": "project",
+    "license": "Copie Pas",
+    "authors": [{
+        "name": "DSAndreee",
+        "email": "andre.da-silva@etudiant.univ-reims.fr"
+    }],
+    "autoload": {
+        "psr-4": {
+            "MMMI\\": "src/"
+        }
+    },
+    "require": {}
+}
