@@ -9,8 +9,11 @@
     }],
     "autoload": {
         "psr-4": {
-            "MMMI\\": "src/"
+            "MMI\\": "src/"
         }
     },
-    "require": {}
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    }
 }

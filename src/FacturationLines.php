@@ -26,4 +26,17 @@ class FacturationLines{
      public function getTva(){
         return $this->tva;
     }
+
+    public function setValue($value){
+        $this->value = $value;
+    }
+     public function setDescription($description){
+        $this->description = $description;
+    }
+     public function setQuantity($quantity){
+        $this->quantity = $quantity;
+    }
+     public function setTva($tva){
+        $this->tva = $tva;
+    }
 }
