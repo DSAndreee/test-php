@@ -1,6 +1,8 @@
 <?php
 namespace MMI;
 
+use Doctrine\Common\Collections\ArrayCollection;
+
 class Facturation{
 
     private $id;
@@ -10,6 +12,7 @@ class Facturation{
     public function __construct($id,$name){
         $this->id=$id;
         $this->name=$name;
+        $this->lines = new ArrayCollection();
     }
     public function getId(){
         return $this->id;
