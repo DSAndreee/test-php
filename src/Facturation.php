@@ -24,8 +24,8 @@ class Facturation{
     
     public function getTotal() {
         $total = 0;
-      foreach($this->lines as $line){
-            $total = $total + ($line->getValue()*$line->getQuantity())*(1+$line->getTva()/100);
+      foreach($this->lines as $line){ 
+            $total = $total + ($line->getValue()*$line->getQuantity())*(1+$line->getTva()/100);   
         }
         return $total;
     }
